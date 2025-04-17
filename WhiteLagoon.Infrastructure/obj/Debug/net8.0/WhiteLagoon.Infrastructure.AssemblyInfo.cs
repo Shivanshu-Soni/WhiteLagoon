@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WhiteLagoon.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76d72804069e2cc3d6fa92b7d107f3bbfab99d92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ed49c7fe1c725551d1198c5856f59fef2e7422b")]
 [assembly: System.Reflection.AssemblyProductAttribute("WhiteLagoon.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WhiteLagoon.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

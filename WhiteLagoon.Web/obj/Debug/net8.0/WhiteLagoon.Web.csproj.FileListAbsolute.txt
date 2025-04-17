@@ -180,3 +180,4 @@ H:\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\Microsoft.Extensions.FileProvide
 H:\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\Microsoft.Extensions.FileSystemGlobbing.dll
 H:\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\WhiteLagoon.Domain.dll
 H:\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\WhiteLagoon.Domain.pdb
+h:\WhiteLagoon\WhiteLagoon.Web\obj\Debug\net8.0\WhiteLagoon.Web.sourcelink.json

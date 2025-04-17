@@ -15,3 +15,4 @@ H:\WhiteLagoon\WhiteLagoon.Infrastructure\obj\Debug\net8.0\ref\WhiteLagoon.Infra
 H:\WhiteLagoon\WhiteLagoon.Infrastructure\bin\Debug\net8.0\WhiteLagoon.Domain.dll
 H:\WhiteLagoon\WhiteLagoon.Infrastructure\bin\Debug\net8.0\WhiteLagoon.Domain.pdb
 H:\WhiteLagoon\WhiteLagoon.Infrastructure\obj\Debug\net8.0\WhiteLag.7132A6B4.Up2Date
+h:\WhiteLagoon\WhiteLagoon.Infrastructure\obj\Debug\net8.0\WhiteLagoon.Infrastructure.sourcelink.json

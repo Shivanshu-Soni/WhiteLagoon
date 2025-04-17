@@ -5110,11 +5110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj",
+      "projectUniqueName": "h:\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj",
       "projectName": "WhiteLagoon.Infrastructure",
-      "projectPath": "H:\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj",
+      "projectPath": "h:\\WhiteLagoon\\WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\shiva\\.nuget\\packages\\",
-      "outputPath": "H:\\WhiteLagoon\\WhiteLagoon.Infrastructure\\obj\\",
+      "outputPath": "h:\\WhiteLagoon\\WhiteLagoon.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

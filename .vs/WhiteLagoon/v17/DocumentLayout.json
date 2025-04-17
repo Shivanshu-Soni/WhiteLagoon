@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "H:\\WhiteLagoon\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19DF6FDE-789C-405B-A551-26F33AC17CE8}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|h:\\whitelagoon\\whitelagoon.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19DF6FDE-789C-405B-A551-26F33AC17CE8}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "H:\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "H:\\WhiteLagoon\\WhiteLagoon.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WhiteLagoon.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T15:57:06.723Z",
+              "EditorCaption": ""
             }
           ]
         }
