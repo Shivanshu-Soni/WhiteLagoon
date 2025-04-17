@@ -181,3 +181,6 @@ H:\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\Microsoft.Extensions.FileSystemG
 H:\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\WhiteLagoon.Domain.dll
 H:\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\WhiteLagoon.Domain.pdb
 h:\WhiteLagoon\WhiteLagoon.Web\obj\Debug\net8.0\WhiteLagoon.Web.sourcelink.json
+H:\WhiteLagoon\WhiteLagoon.Web\bin\Debug\net8.0\WhiteLagoon.Web.staticwebassets.endpoints.json
+H:\WhiteLagoon\WhiteLagoon.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+H:\WhiteLagoon\WhiteLagoon.Web\obj\Debug\net8.0\staticwebassets\msbuild.WhiteLagoon.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

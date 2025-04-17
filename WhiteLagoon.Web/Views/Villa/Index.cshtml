@@ -1,0 +1,44 @@
+@model IEnumerable<WhiteLagoon.Domain.Entities.Villa>;
+@{
+    ViewData["Title"] = "Index";
+}
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <div>
+        <h1 class="text-info">Villas</h1>
+    </div>
+
+    <div>
+        <Table class="table table-bordered table-striped ">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Details</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+
+            @foreach (var villa in Model)
+            {
+                <tbody>
+                    <tr>
+                        <td>@villa.Name</td>
+                        <td>@villa.Price</td>
+                        <td>@villa.Description</td>
+                        <td>@villa.ImageUrl</td>
+                    </tr>   
+                </tbody>
+
+
+
+            }
+        </Table>
+    </div>
+
+</div>
