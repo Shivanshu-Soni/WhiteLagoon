@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WhiteLagoon.Infrastructure.Data;
 
@@ -11,9 +12,11 @@ using WhiteLagoon.Infrastructure.Data;
 namespace WhiteLagoon.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250223110740_SeedVilladata")]
+    partial class SeedVilladata
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -63,38 +66,38 @@ namespace WhiteLagoon.Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2024, 1, 1, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedAt = new DateTime(2025, 2, 23, 16, 37, 39, 576, DateTimeKind.Local).AddTicks(6041),
                             Description = "Villa 1 Description",
                             ImageUrl = "https://via.placeholder.com/150",
                             Name = "Villa 1",
                             Occupancy = 4,
                             Price = 1000.0,
                             SqFt = 2000,
-                            UpdatedAt = new DateTime(2024, 1, 1, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                            UpdatedAt = new DateTime(2025, 2, 23, 16, 37, 39, 578, DateTimeKind.Local).AddTicks(9)
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2024, 1, 1, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedAt = new DateTime(2025, 2, 23, 16, 37, 39, 578, DateTimeKind.Local).AddTicks(367),
                             Description = "Villa 2 Description",
                             ImageUrl = "https://via.placeholder.com/150",
                             Name = "Villa 2",
                             Occupancy = 6,
                             Price = 2000.0,
                             SqFt = 3000,
-                            UpdatedAt = new DateTime(2024, 1, 1, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                            UpdatedAt = new DateTime(2025, 2, 23, 16, 37, 39, 578, DateTimeKind.Local).AddTicks(370)
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2024, 1, 1, 12, 0, 0, 0, DateTimeKind.Unspecified),
+                            CreatedAt = new DateTime(2025, 2, 23, 16, 37, 39, 578, DateTimeKind.Local).AddTicks(372),
                             Description = "Villa 3 Description",
                             ImageUrl = "https://via.placeholder.com/150",
                             Name = "Villa 3",
                             Occupancy = 8,
                             Price = 3000.0,
                             SqFt = 4000,
-                            UpdatedAt = new DateTime(2024, 1, 1, 12, 0, 0, 0, DateTimeKind.Unspecified)
+                            UpdatedAt = new DateTime(2025, 2, 23, 16, 37, 39, 578, DateTimeKind.Local).AddTicks(373)
                         });
                 });
 #pragma warning restore 612, 618

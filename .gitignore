@@ -1,25 +1,38 @@
-# Ignore node_modules directory
-node_modules/
 
-# Ignore log files
-*.log
+# Ignore .NET Core build results
+bin/
+obj/
 
-# Ignore build directories
-dist/
-build/
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
 
-# Ignore environment variable files
-.env
-
-# Ignore temporary files
-*.tmp
-*.swp
-
-# Ignore OS generated files
-.DS_Store
-Thumbs.db
-
-# Ignore IDE specific files
-.vscode/
+# Ignore Rider project files
 .idea/
-*.iml
+*.sln.iml
+
+# Ignore Visual Studio Code workspace files
+.vscode/
+
+# Ignore local NuGet packages
+*.nupkg
+
+# Ignore coverage tool output
+coverage/
+*.coverage
+*.coveragexml
+*.cov
+*.lcov
+
+# Ignore Resharper files
+_ReSharper.Caches/
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore tool-specific files
+*.dotCover
+*.dotTrace
+*.dotMemory
+*.dotSettings
