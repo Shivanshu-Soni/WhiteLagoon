@@ -1,0 +1,60 @@
+@model IEnumerable<WhiteLagoon.Domain.Entities.Villa>
+
+@{
+    ViewData["Title"] = "Villa Management";
+}
+
+<div class="card p-4">
+
+    <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom">
+        <h1 class="mb-0">Villas List</h1>
+
+        <a asp-controller="Villa" asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Add New Villa
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Details</th>
+                    <th>Image</th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var villa in Model)
+                {
+                    <tr>
+                        <td>@villa.Name</td>
+                        <td>@villa.Price.ToString("c")</td>
+                        <td>@villa.Description</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(villa.ImageUrl))
+                            {
+                                <img src="@villa.ImageUrl" style="width:100px; border-radius: 8px;" alt="@villa.Name" />
+                            }
+                        </td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a asp-controller="Villa" asp-action="Update" asp-route-id="@villa.Id"
+                                   class="btn btn-sm btn-primary mx-1">
+                                    <i class="bi bi-pencil-square"></i> Edit
+                                </a>
+                                <a asp-controller="Villa" asp-action="Delete" asp-route-id="@villa.Id"
+                                   class="btn btn-sm btn-danger mx-1">
+                                    <i class="bi bi-trash-fill"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

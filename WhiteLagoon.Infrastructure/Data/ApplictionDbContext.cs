@@ -14,8 +14,8 @@ namespace WhiteLagoon.Infrastructure.Data
                 new Villa()
                 {
                     Id = 1,
-                    Name = "Villa 1",
-                    Description = "Villa 1 Description",
+                    Name = "Premium Pool Villa",
+                    Description = "Premium Pool villa with attached bathroom",
                     Price = 1000,
                     SqFt = 2000,
                     Occupancy = 4,
@@ -26,8 +26,8 @@ namespace WhiteLagoon.Infrastructure.Data
                 new Villa()
                 {
                     Id = 2,
-                    Name = "Villa 2",
-                    Description = "Villa 2 Description",
+                    Name = "Super Premium Villa ",
+                    Description = "Super premium villa",
                     Price = 2000,
                     SqFt = 3000,
                     Occupancy = 6,
@@ -38,8 +38,8 @@ namespace WhiteLagoon.Infrastructure.Data
                 new Villa()
                 {
                     Id = 3,
-                    Name = "Villa 3",
-                    Description = "Villa 3 Description",
+                    Name = "Suite Villa",
+                    Description = "Presidential Suite villa for exotic experience",
                     Price = 3000,
                     SqFt = 4000,
                     Occupancy = 8,

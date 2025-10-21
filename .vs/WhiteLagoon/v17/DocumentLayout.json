@@ -1,7 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\WhiteLagoon\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Udemy Learnings\\Whitelagoon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.2\\PACKAGE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05693CAD-B3F7-403D-8B25-331A49755738}|WhiteLagoon.Application\\WhiteLagoon.Application.csproj|d:\\udemy learnings\\whitelagoon\\whitelagoon.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05693CAD-B3F7-403D-8B25-331A49755738}|WhiteLagoon.Application\\WhiteLagoon.Application.csproj|solutionrelative:whitelagoon.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Infrastructure\\Migrations\\20251021192235_Viila_model-Changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WhiteLagoon.Infrastructure\\Migrations\\20251021192235_Viila_model-Changed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.2\\tools\\about_EntityFrameworkCore.help.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.2\\docs\\PACKAGE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F217D68A-D83D-4C73-81E7-3AC6D4A2112D}|WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj|d:\\udemy learnings\\whitelagoon\\whitelagoon.infrastructure\\data\\applictiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F217D68A-D83D-4C73-81E7-3AC6D4A2112D}|WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj|solutionrelative:whitelagoon.infrastructure\\data\\applictiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DF6FDE-789C-405B-A551-26F33AC17CE8}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|d:\\udemy learnings\\whitelagoon\\whitelagoon.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19DF6FDE-789C-405B-A551-26F33AC17CE8}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19DF6FDE-789C-405B-A551-26F33AC17CE8}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|d:\\udemy learnings\\whitelagoon\\whitelagoon.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19DF6FDE-789C-405B-A551-26F33AC17CE8}|WhiteLagoon.Web\\WhiteLagoon.Web.csproj|solutionrelative:whitelagoon.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F217D68A-D83D-4C73-81E7-3AC6D4A2112D}|WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj|d:\\udemy learnings\\whitelagoon\\whitelagoon.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F217D68A-D83D-4C73-81E7-3AC6D4A2112D}|WhiteLagoon.Infrastructure\\WhiteLagoon.Infrastructure.csproj|solutionrelative:whitelagoon.infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87721423-9158-4F4C-9DD6-A959F55C92D9}|WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj|d:\\udemy learnings\\whitelagoon\\whitelagoon.domain\\entities\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87721423-9158-4F4C-9DD6-A959F55C92D9}|WhiteLagoon.Domain\\WhiteLagoon.Domain.csproj|solutionrelative:whitelagoon.domain\\entities\\villa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +47,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PACKAGE.md",
+              "DocumentMoniker": "C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.2\\PACKAGE.md",
+              "ToolTip": "C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\9.0.2\\PACKAGE.md [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-21T19:25:05.697Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Application\\Class1.cs",
+              "ToolTip": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Application\\Class1.cs",
+              "RelativeToolTip": "WhiteLagoon.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:24:25.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20251021192235_Viila_model-Changed.cs",
+              "DocumentMoniker": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Infrastructure\\Migrations\\20251021192235_Viila_model-Changed.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Infrastructure\\Migrations\\20251021192235_Viila_model-Changed.cs",
+              "ToolTip": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Infrastructure\\Migrations\\20251021192235_Viila_model-Changed.cs",
+              "RelativeToolTip": "WhiteLagoon.Infrastructure\\Migrations\\20251021192235_Viila_model-Changed.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:22:35.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PACKAGE.md",
+              "DocumentMoniker": "C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.2\\docs\\PACKAGE.md",
+              "ToolTip": "C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.2\\docs\\PACKAGE.md [Read Only]",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-21T19:21:57.484Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplictionDbContext.cs",
+              "DocumentMoniker": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Infrastructure\\Data\\ApplictionDbContext.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Infrastructure\\Data\\ApplictionDbContext.cs",
+              "ToolTip": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Infrastructure\\Data\\ApplictionDbContext.cs",
+              "RelativeToolTip": "WhiteLagoon.Infrastructure\\Data\\ApplictionDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA8wB0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T19:19:00.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Web\\Program.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\Program.cs",
+              "ToolTip": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Web\\Program.cs",
+              "RelativeToolTip": "WhiteLagoon.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:57:03.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "about_EntityFrameworkCore.help.txt",
+              "DocumentMoniker": "C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.2\\tools\\about_EntityFrameworkCore.help.txt",
+              "ToolTip": "C:\\Users\\Shivanshu Soni\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\9.0.2\\tools\\about_EntityFrameworkCore.help.txt [Read Only]",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-21T17:55:00.622Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "WhiteLagoon.Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:54:31.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Villa.cs",
+              "DocumentMoniker": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Domain\\Entities\\Villa.cs",
+              "RelativeDocumentMoniker": "WhiteLagoon.Domain\\Entities\\Villa.cs",
+              "ToolTip": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Domain\\Entities\\Villa.cs",
+              "RelativeToolTip": "WhiteLagoon.Domain\\Entities\\Villa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T17:29:42.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "WhiteLagoon.Web\\appsettings.json",
+              "ToolTip": "D:\\Udemy Learnings\\Whitelagoon\\WhiteLagoon.Web\\appsettings.json",
+              "RelativeToolTip": "WhiteLagoon.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-21T17:28:42.536Z",
+              "EditorCaption": ""
             }
           ]
         }

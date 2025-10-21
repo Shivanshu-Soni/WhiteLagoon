@@ -9,5 +9,3 @@ To add a specific .NET package to your project, use the following command:
 ```sh
 dotnet add package <PACKAGE_NAME>
 ```
-
-Replace `<PACKAGE_NAME>` with the name of   

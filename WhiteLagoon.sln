@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Domain", "White
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Infrastructure", "WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj", "{F217D68A-D83D-4C73-81E7-3AC6D4A2112D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Application", "WhiteLagoon.Application\WhiteLagoon.Application.csproj", "{05693CAD-B3F7-403D-8B25-331A49755738}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F217D68A-D83D-4C73-81E7-3AC6D4A2112D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F217D68A-D83D-4C73-81E7-3AC6D4A2112D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F217D68A-D83D-4C73-81E7-3AC6D4A2112D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05693CAD-B3F7-403D-8B25-331A49755738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05693CAD-B3F7-403D-8B25-331A49755738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05693CAD-B3F7-403D-8B25-331A49755738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05693CAD-B3F7-403D-8B25-331A49755738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
