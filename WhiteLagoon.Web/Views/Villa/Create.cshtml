@@ -1,0 +1,71 @@
+﻿@model WhiteLagoon.Domain.Entities.Villa
+
+@{
+    ViewData["Title"] = "Create Villa";
+}
+
+<div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom">
+    <h1 class="mb-0">Create Villa</h1>
+    <a asp-controller="Villa" asp-action="Index" class="btn btn-secondary">
+        <i class="bi bi-arrow-left-circle"></i> Back to List
+    </a>
+</div>
+
+<div class="card p-4">
+
+    <form asp-action="Create" asp-controller="Villa" method="post" class="row g-3">
+        <div  asp-validation-summary="All"></div>
+        <div class="form-floating col-md-6">
+            <input asp-for="Name" class="form-control" />
+            <label asp-for="Name"></label>
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating col-md-6">
+            <input asp-for="Price" class="form-control" />
+            <label asp-for="Price"></label>
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating col-md-6">
+            <input asp-for="SqFt" class="form-control" />
+            <label asp-for="SqFt"></label>
+            <span asp-validation-for="SqFt" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating col-md-6">
+            <input asp-for="Occupancy" class="form-control" />
+            <label asp-for="Occupancy"></label>
+            <span asp-validation-for="Occupancy" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating col-md-6">
+            <input asp-for="Description" class="form-control" />
+            <label asp-for="Description"></label>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="form-floating col-md-6">
+            <input asp-for="ImageUrl" class="form-control" />
+            <label asp-for="ImageUrl"></label>
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+
+        <div class="col-12 pt-2 d-flex gap-2 justify-content-end">
+            <a asp-controller="Villa" asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-x-circle"></i> Cancel
+            </a>
+            <button class="btn btn-primary" type="submit">
+                <i class="bi bi-check-circle"></i> Create
+            </button>
+        </div>
+
+      
+
+    </form>
+</div>
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

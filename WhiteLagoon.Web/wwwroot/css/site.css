@@ -1,22 +1,192 @@
+/* === 1. ROOT VARIABLES & BASE STYLES === */
+
+/* Define our modern color palette */
+[data-bs-theme="dark"] {
+    --bs-body-bg: #121212; /* Deep black for main background */
+    --bs-body-color: #e0e0e0; /* Soft white for text */
+    --surface-color: #1e1e1e; /* Lighter grey for surfaces (nav, footer, cards) */
+    --bs-border-color: #333; /* Subtle border color */
+    --bs-primary: #377dff; /* A vibrant blue for primary actions */
+    --bs-primary-rgb: 55, 125, 255;
+    --bs-primary-hover: #5a95ff;
+    --bs-link-color: #69a1ff; /* A lighter blue for links */
+    --bs-link-hover-color: #8cb9ff;
+    --bs-emphasis-color: #ffffff; /* Pure white for strong text (headings) */
+}
+
+/* Apply base font and smooth scrolling */
 html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    scroll-behavior: smooth;
 }
 
 body {
-  margin-bottom: 60px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bs-body-bg);
 }
+
+/* Basic transition for all links and buttons */
+a,
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-secondary {
+    background-color: #3a3a3a;
+    border-color: #444;
+    color: var(--bs-emphasis-color);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+    .btn-secondary:hover {
+        background-color: #4a4a4a;
+        border-color: #555;
+        color: var(--bs-emphasis-color);
+        transform: translateY(-2px); /* "Lift" effect */
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+    }
+
+/* === 2. NAVBAR === */
+
+.navbar {
+    background-color: var(--surface-color);
+    /* Soft shadow instead of a border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 0.75rem 0;
+    margin-bottom: 2.5rem; /* Replaces 'mb-3' with more space */
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--bs-emphasis-color); /* Bright white */
+}
+
+    .navbar-brand:hover {
+        color: var(--bs-emphasis-color);
+    }
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--bs-body-color); /* Soft white */
+    padding: 0.6rem 1rem !important; /* Consistent padding */
+    border-radius: 8px; /* Rounded corners for links */
+    margin: 0 0.25rem;
+}
+
+    /* Hover/Focus effect: subtle background color */
+    .nav-link:hover,
+    .nav-link:focus {
+        color: var(--bs-emphasis-color);
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+/* Active link style: uses the primary color */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fff;
+    background-color: var(--bs-primary);
+}
+
+/* Fix for the mobile menu toggler icon */
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+    /* This SVG filter helps recolor the default Bootstrap icon to be more visible */
+    filter: invert(1) grayscale(100) brightness(200%);
+}
+
+
+/* === 3. MAIN CONTENT (Generic styles for your views) === */
+
+main {
+    min-height: calc(100vh - 250px); /* Ensures footer stays down on empty pages */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--bs-emphasis-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* Example: Modern Card style (if you use cards in your views) */
+.card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--bs-border-color);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+    /* Add a subtle lift/glow on card hover */
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        border-color: rgba(var(--bs-primary-rgb), 0.5);
+    }
+
+/* Example: Modern Button style */
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(var(--bs-primary-rgb), 0.2);
+}
+
+    .btn-primary:hover {
+        background-color: var(--bs-primary-hover);
+        border-color: var(--bs-primary-hover);
+        transform: translateY(-2px); /* "Lift" effect */
+        box-shadow: 0 6px 14px rgba(var(--bs-primary-rgb), 0.3);
+    }
+
+/* === 4. FOOTER === */
+
+.footer {
+    background-color: var(--surface-color);
+    color: #888; /* Softer, muted text */
+    padding: 2.5rem 0;
+    margin-top: 3rem;
+    /* Use a subtle inner shadow for separation instead of 'border-top' */
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+    .footer a {
+        color: var(--bs-link-color);
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+        .footer a:hover {
+            color: var(--bs-link-hover-color);
+            text-decoration: underline;
+        }
+
+/* === 5. CUSTOM SCROLLBAR (Optional but recommended) === */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bs-body-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 10px;
+    border: 2px solid var(--bs-body-bg);
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
