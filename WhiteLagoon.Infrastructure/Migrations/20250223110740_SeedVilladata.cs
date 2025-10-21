@@ -15,7 +15,7 @@ namespace WhiteLagoon.Infrastructure.Migrations
         {
             migrationBuilder.InsertData(
                 table: "Villas",
-                columns: new[] { "Id", "CreatedAt", "Description", "ImageUrl", "Name", "Occupancy", "Price", "SqFt", "UpdatedAt" },
+                columns: ["Id", "CreatedAt", "Description", "ImageUrl", "Name", "Occupancy", "Price", "SqFt", "UpdatedAt"],
                 values: new object[,]
                 {
                     { 1, new DateTime(2025, 2, 23, 16, 37, 39, 576, DateTimeKind.Local).AddTicks(6041), "Villa 1 Description", "https://via.placeholder.com/150", "Villa 1", 4, 1000.0, 2000, new DateTime(2025, 2, 23, 16, 37, 39, 578, DateTimeKind.Local).AddTicks(9) },
